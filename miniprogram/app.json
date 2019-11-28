@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/playlist/playlist",
+    "pages/blogs/blogs",
+    "pages/profile/profile",
+    "pages/demo/demo",
+    "components/playlist/playlist"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d43c33",
+    "navigationBarTitleText": "音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/playlist/playlist",
+        "text": "music",
+        "iconPath": "images/icon/music.png",
+        "selectedIconPath": "images/icon/musicing.png"
+      },
+      {
+        "pagePath": "pages/blogs/blogs",
+        "text": "blogs",
+        "iconPath": "images/icon/write.png",
+        "selectedIconPath": "images/icon/writing.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "mine",
+        "iconPath": "images/icon/my.png",
+        "selectedIconPath": "images/icon/mying.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
